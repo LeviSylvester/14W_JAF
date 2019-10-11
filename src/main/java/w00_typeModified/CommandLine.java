@@ -9,7 +9,7 @@ import static w00_typeModified.Type.type;
 
 // tema: pt fisiere .txt date ca parametri de intrare, sa se tipareasca continutul lor
 // this CommandLine class tries to simulate the console
-// type command accepts max 3 file paths separated with space
+// type command currently accepts max 5 file paths separated with space (but it can support easily even more)
 public class CommandLine {
 
     public static void main(String[] args) throws IOException {
@@ -46,7 +46,7 @@ public class CommandLine {
         /* sample input:
 type file.txt file1.txt file2.txt */
 
-        //toDo: regex
+        //toDo: regex; build a method that increments type method's accepted file paths to as many as entered
 
         // Commented but worth to mention:
 

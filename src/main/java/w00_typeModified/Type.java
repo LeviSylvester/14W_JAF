@@ -16,39 +16,43 @@ public class Type {
     }
 
     public static void type(String file, String otherFile) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader(file));
-        BufferedReader br1 = new BufferedReader(new FileReader(otherFile));
-        System.out.println();
-        System.out.println(file + ":");
-        for (String line; (line = br.readLine()) != null; ) {
-            System.out.println(line);
-        }
-        System.out.println();
-        System.out.println(otherFile + ":");
-        for (String line; (line = br1.readLine()) != null; ) {
-            System.out.println(line);
-        }
+        type(file);
+        type(otherFile);
+//        BufferedReader br = new BufferedReader(new FileReader(file));
+//        BufferedReader br1 = new BufferedReader(new FileReader(otherFile));
+//        System.out.println();
+//        System.out.println(file + ":");
+//        for (String line; (line = br.readLine()) != null; ) {
+//            System.out.println(line);
+//        }
+//        System.out.println();
+//        System.out.println(otherFile + ":");
+//        for (String line; (line = br1.readLine()) != null; ) {
+//            System.out.println(line);
+//        }
     }
 
     public static void type(String file, String secondFile, String thirdFile) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader(file));
-        BufferedReader br1 = new BufferedReader(new FileReader(secondFile));
-        BufferedReader br2 = new BufferedReader(new FileReader(thirdFile));
-        System.out.println();
-        System.out.println(file + ":");
-        for (String line; (line = br.readLine()) != null; ) {
-            System.out.println(line);
-        }
-        System.out.println();
-        System.out.println(secondFile + ":");
-        for (String line; (line = br1.readLine()) != null; ) {
-            System.out.println(line);
-        }
-        System.out.println();
-        System.out.println(thirdFile + ":");
-        for (String line; (line = br2.readLine()) != null; ) {
-            System.out.println(line);
-        }
+        type(file);
+        type(secondFile);
+        type(thirdFile);
     }
+
+    public static void type(String file, String secondFile, String thirdFile, String forthFile) throws IOException {
+        type(file);
+        type(secondFile);
+        type(thirdFile);
+        type(forthFile);
+    }
+
+    public static void type(String file, String secondFile, String thirdFile, String forthFile, String fifthFile)
+            throws IOException {
+        type(file);
+        type(secondFile);
+        type(thirdFile);
+        type(forthFile);
+        type(fifthFile);
+    }
+    // and so on
 }
 
