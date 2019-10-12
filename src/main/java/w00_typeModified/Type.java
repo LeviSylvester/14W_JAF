@@ -15,8 +15,6 @@ public class Type {
         }
     }
 
-    //apparently we can use String[] or String... as parameters with the same result
-    //is there ANY difference between them?
     public static void type(String... files) throws IOException {
         for (String file : files) {
             type(file);

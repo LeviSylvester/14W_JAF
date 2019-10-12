@@ -42,7 +42,7 @@ public class CommandLine {
             } catch (FileNotFoundException f) {
                 System.out.println("file not found");
             } catch (IllegalArgumentException i) {
-                System.out.println("not a valid command");
+                System.out.println("no command");
             }
         }
         scanner.close();
