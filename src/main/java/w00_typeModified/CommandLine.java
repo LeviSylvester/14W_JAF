@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 import static w00_typeModified.Type.type;
 
-// tema: pt fisiere .txt date ca parametri de intrare, sa se tipareasca continutul lor
+// pt fisiere .txt date ca parametri de intrare, sa se tipareasca continutul lor
 // this CommandLine class tries to simulate the console
 
 public class CommandLine {
